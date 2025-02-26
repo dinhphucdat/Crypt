@@ -1,7 +1,27 @@
-# Byte-compiled files
-iscrypt/__pycache__/
+# Byte-compiled / optimized / DLL files
+__pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environments
 env/
@@ -9,18 +29,6 @@ venv/
 ENV/
 .venv/
 .virtualenv/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Distribution / packaging
-.Python
-build/
-build/lib
-build/lib/iscrypt
-dist/
-*.egg-info/
-.eggs/
 
 # Installer logs
 pip-log.txt
@@ -31,13 +39,47 @@ htmlcov/
 .tox/
 .nox/
 .coverage
+.coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
 *.py,cover
+.hypothesis/
 
-# mypy type checker
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.*
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
 .mypy_cache/
 .dmypy.json
 dmypy.json
@@ -45,24 +87,26 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Bandit security linter
-.bandit/
+# pytype static type analyzer
+.pytype/
 
-# Pytest cache
-.pytest_cache/
+# Cython debug symbols
+cython_debug/
 
-# IDE specific
+# PyCharm
 .idea/
-.vscode/
-*.swp
-*.swo
 
-# macOS specific
+# VS Code
+.vscode/
+
+# macOS
 .DS_Store
 
 # Backup files
 *.bak
 *.tmp
+*.swp
+*.swo
 *.orig
 *.~*
 
@@ -70,7 +114,3 @@ dmypy.json
 *.log
 *.out
 *.err
-
-# Environment variables
-.env
-.env.*
