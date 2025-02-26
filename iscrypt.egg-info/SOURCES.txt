@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+iscrypt/__init__.py
+iscrypt/__main__.py
+iscrypt/caesar.py
+iscrypt/cli.py
+iscrypt/speak133t.py
+iscrypt/substitution.py
+iscrypt/util.py
+iscrypt.egg-info/PKG-INFO
+iscrypt.egg-info/SOURCES.txt
+iscrypt.egg-info/dependency_links.txt
+iscrypt.egg-info/entry_points.txt
+iscrypt.egg-info/top_level.txt

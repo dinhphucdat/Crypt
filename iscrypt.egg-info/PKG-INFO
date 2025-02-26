@@ -1,0 +1,5 @@
+Metadata-Version: 2.2
+Name: iscrypt
+Version: 0.0.1
+Summary: Simple cryptography CLI application
+Author-email: Dat Dinh <datgamingdinh@gmail.com>

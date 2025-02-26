@@ -1,0 +1,14 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iscrypt"
+version = "0.0.1"
+description = "Simple cryptography CLI application"
+authors = [{ name = "Dat Dinh", email = "datgamingdinh@gmail.com" }]
+
+[project.scripts]
+iscrypt = "iscrypt.__main__:main"
